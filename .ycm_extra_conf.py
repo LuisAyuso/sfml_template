@@ -88,7 +88,7 @@ def FlagsForFile( filename, **kwargs ):
     return {
       'flags': flags,
       'include_paths_relative_to_dir': DirectoryOfThisScript(),
-      'do_cache' : True
+      'do_cache' : False
     }
 
   compilation_info = GetCompilationInfoForFile( filename )
@@ -110,6 +110,6 @@ def FlagsForFile( filename, **kwargs ):
   return {
     'flags': final_flags,
     'include_paths_relative_to_dir': compilation_info.compiler_working_dir_,
-    'do_cache' : True
+    'do_cache' : False
   }
 

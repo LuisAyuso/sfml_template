@@ -10,3 +10,9 @@ MaxEmptyLinesToKeep: '3'
 Standard: Cpp11
 TabWidth: '4'
 UseTab: Never
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: 'true'
+AlignConsecutiveDeclarations: 'true'
+AlignTrailingComments: 'false'
+NamespaceIndentation: Inner
+AllowShortIfStatementsOnASingleLine: true
